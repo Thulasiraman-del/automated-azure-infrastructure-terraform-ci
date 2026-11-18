@@ -84,8 +84,8 @@ Install Terraform and Git.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-cd REPOSITORY_NAME
+git clone https://github.com/Thulasiraman-del/automated-azure-infrastructure-terraform-ci.git
+cd automated-azure-infrastructure-terraform-ci
 ```
 
 Create your development variables file:
