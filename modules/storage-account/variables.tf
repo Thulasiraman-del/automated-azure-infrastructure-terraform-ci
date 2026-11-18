@@ -1,0 +1,20 @@
+variable "name" {
+  description = "Globally unique Storage Account name"
+  type        = string
+}
+
+variable "resource_group_name" {
+  description = "Name of the Resource Group"
+  type        = string
+}
+
+variable "location" {
+  description = "Azure region"
+  type        = string
+}
+
+variable "tags" {
+  description = "Storage Account tags"
+  type        = map(string)
+  default     = {}
+}
